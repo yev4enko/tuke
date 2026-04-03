@@ -2,7 +2,7 @@
 
 ## High Concept
 
-- **Žáner:** Strategy / City Builder / Simulation / Base Building / Economic Strategy
+- **Žáner:** City Builder / Economic Strategy / Simulation
 - **Vývojár/ry:** 3Division
 - **Vydavateľ/la:** Hooded Horse.
 - **Platforma:** PC (Windows).
@@ -13,14 +13,14 @@ Hra kladie dôraz na realizmus a úplnú kontrolu ekonomiky: spravujete ťažbu 
 
 ## Genre & Publisher
 
-Žáner: mestobudovateľský simulátor, ekonomická stratégia  
-Platforma: PC (Windows, Linux), platformy na kúpu - Steam/Epic Games Store.
+Hra patrí medzi mestobudovateľské simulátory a ekonomické stratégie so silným dôrazom na realistickú simuláciu.
+Platforma: PC (Windows), platformy na kúpu - Steam/Epic Games Store.
 
 Hra bola vydaná na platforme Steam 15. marca 2019 v režime Early Access.
 V polovici septembra 2023 spoločnosť 3Division oznámila podpísanie
 zmluvy s vydavateľom Hooded Horse.
 
-16 marca 2024 vývojár oznámil, že plná verzia hry vyjde 20. júna 2024.
+16. marca 2024 vývojár oznámil, že plná verzia hry vyjde 20. júna 2024.
 
 ## Market Research
 
@@ -103,9 +103,16 @@ Hra úplne mení zaužívaný koncept racing žánru - jazda mimo trate nie je t
 
 ## Gameplay 
 
-Hra je hrateľná, vyhrateľná a ma intuitívne ovládanie - hráč sa zorientuje bez dlhého tutoriálu. Sandbox sloboda a model deštrukcie sú silné stránky, ktoré motivujú k experimentovaniu.
+1. Jazda
+2. Experimentovanie s prostredím
+3. Hľadanie alternatívnej trasy
+4. Dosiahnutie cieľa
 
-Na druhej strane, balancing nie je dotiahnutý: hráč môže obísť väčšinu obsahu priamou jazdou k cieľu. Gameplay situácie sa opakujú a variabilita je nízka. Po prehre hra nemá reštart ani menu - zostane zamrznutá bez akéhokoľvek feedbacku. Objavujú sa tiež zasekávania v geometrii, vizuálne glitche a despawn áut pôsobí skriptovane. Všetky tieto problémy sú pochopiteľné v rámci 24-hodinového vývoja, ale na celkovom dojme sa podpisujú.
+Gameplay je funkčný a umožňuje hráčovi dokončiť hru bez výrazných bariér. Ovládanie je intuitívne a nevyžaduje dlhý tutoriál, čo znižuje vstupnú bariéru pre hráča.
+
+Silnou stránkou hry je sandboxový prístup a možnosť interakcie s prostredím (napr. deštrukcia objektov), ktoré podporujú experimentovanie a vytvárajú emergentné herné situácie.
+
+Na druhej strane, hra trpí nedostatkami v balancovaní – hráč môže obísť väčšinu obsahu priamou jazdou k cieľu, čím sa znižuje význam navrhnutých herných výziev. Variabilita gameplay situácií je obmedzená, čo vedie k opakovaniu podobných scenárov.
 
 ## Visual & Audio 
 
@@ -142,25 +149,24 @@ Automatizácia všetkého : od ťažby rudy až po štart rakiet. Postupom času
 
 ## Pozitívny feedback loop (automatizácia a výskum)
 
-**Spúšťač:** Čiastočne automatizovaná výroba (napríklad základné suroviny alebo medziprodukty) už beží, no výstup nestačí na ďalšie ciele — nové technológie vo výskume, vyššia spotreba alebo plánovaná expanzia základne.
+- **Spúšťač:** Čiastočne automatizovaná výroba (napríklad základné suroviny alebo medziprodukty) už beží, no výstup nestačí na ďalšie ciele — nové technológie vo výskume, vyššia spotreba alebo plánovaná expanzia základne.
 
-**Správanie hráča:** Hráč rozširuje výrobné linky, pridáva dopravu (pásy, vlaky), stavia ďalšie stroje a odstraňuje úzke miesta; často zároveň investuje výskumné balíčky do ďalších vylepšení.
+- **Správanie hráča:** Hráč rozširuje výrobné linky, pridáva dopravu (pásy, vlaky), stavia ďalšie stroje a odstraňuje úzke miesta; často zároveň investuje výskumné balíčky do ďalších vylepšení.
 
-**Zmena stavu hry:** Fabrika dosahuje vyšší prietok, pribúdajú silnejšie recepty a stroje (rýchlejšie pece, lepšie moduly, logistika) a výskum odomyká efektívnejšie riešenia.
+- **Zmena stavu hry:** Fabrika dosahuje vyšší prietok, pribúdajú silnejšie recepty a stroje (rýchlejšie pece, lepšie moduly, logistika) a výskum odomyká efektívnejšie riešenia.
 
-**Spätný dopad na hráča:** Ubúda manuálna práca v prospech plánovania a rozširovania; hráč vidí konkrétny rast výkonu a „čísel“, čo ho posúva k ďalšiemu kolu vylepšení — slučka sa tým zrýchľuje.
+- **Spätný dopad na hráča:** Ubúda manuálna práca v prospech plánovania a rozširovania; hráč vidí konkrétny rast výkonu a „čísel“, čo ho posúva k ďalšiemu kolu vylepšení — slučka sa tým zrýchľuje.
 
 
 ## Negatívny feedback loop (znečistenie a útoky kúsokov)
 
-**Spúšťač:** Továreň produkuje a narastá znečistenie z ťažby, spracovania a spaľovania; čím je fabrika väčšia, tým viac emisií.
+- **Spúšťač:** Továreň produkuje a narastá znečistenie z ťažby, spracovania a spaľovania; čím je fabrika väčšia, tým viac emisií.
 
-**Správanie hráča:** Hráč môže dočasne ignorovať obranu alebo podceniť filtre a čističe a sústrediť sa na čistý rast výroby.
+- **Správanie hráča:** Hráč môže dočasne ignorovať obranu alebo podceniť filtre a čističe a sústrediť sa na čistý rast výroby.
 
-**Zmena stavu hry:** Stúpa evolúcia kúsokov, prichádzajú častejšie a silnejšie útoky; poškodené stroje alebo prerušená výroba znižujú stabilitu základne.
+- **Zmena stavu hry:** Stúpa evolúcia kúsokov, prichádzajú častejšie a silnejšie útoky; poškodené stroje alebo prerušená výroba znižujú stabilitu základne.
 
-**Spätný dopad na hráča:** Hráč musí presunúť pozornosť na múry, obranné veže, muníciu, prípadne znižovať emisie alebo budovať obranu po obvode — expanzia sa spomaľuje alebo komplikuje, kým hrozbu nevyrieši.
-
+- **Spätný dopad na hráča:** Hráč musí presunúť pozornosť na múry, obranné veže, muníciu, prípadne znižovať emisie alebo budovať obranu po obvode — expanzia sa spomaľuje alebo komplikuje, kým hrozbu nevyrieši.
 
 ## Dopad na motiváciu a náročnosť
 
