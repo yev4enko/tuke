@@ -77,11 +77,13 @@ počas hry, sú spôsobené rozhodnutiami a štýlom hry samotného hráča.
 
 2. [Steam DB : Workers & Resources: Soviet Republic](https://steamdb.info/app/784150/)
 
-2. [Official website of the game](https://www.sovietrepublic.net/)
+3. [Official website of the game](https://www.sovietrepublic.net/)
 
-3. [3Division studio website](https://www.3division.sk/)
+4. [3Division studio website](https://www.3division.sk/)
 
-4. [Hooded Horse publisher website](https://www.hoodedhorse.com/)
+5. [Hooded Horse publisher website](https://www.hoodedhorse.com/)
+
+6. [Best City Building Games - 2025](https://stopgame.ru/games/compilation/5604)
 
 
 # Game B: Antiracing - O Ferim Šoferim
@@ -176,4 +178,4 @@ Pozitívny loop posilňuje motiváciu pocitom progresu („ešte jedna linka a b
 
 1. [Steam DB: Factorio](https://steamdb.info/app/427520/charts/)
 
-2. [Factorio Official](https://www.factorio.com/game/about)
+2. [Wube Software / Factorio Team](https://www.factorio.com/game/about)
