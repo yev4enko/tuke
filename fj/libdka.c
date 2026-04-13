@@ -1,59 +1,54 @@
 #include "libdka.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
 
 bool dka(char s[])
 {
+
     int state = 0;
 
-    for (int i = 0; s[i] != '\0'; i++)
+    for (int i = 0; s[i]; i++)
     {
-        if (state == 0 && s[i] == 'a')
+        switch (state)
         {
-            state = 1;
-        }
-        else if (state == 1 && s[i] == 'b')
-        {
-            state = 2;
-        }
-        else if (state == 2 && s[i] == 'c')
-        {
-            state = 0;
-        }
-        else
-        {
-            return false;
+        case 0:
+            if (s[i] == 'a')
+                state = 1;
+            else
+                return false;
+            break;
+
+        case 1:
+            if (s[i] == 'b')
+                state = 2;
+            else
+                return false;
+            break;
+
+        case 2:
+            if (s[i] == 'c')
+                state = 0;
+            else
+                return false;
+            break;
         }
     }
 
-    return (state == 0);
+    return state == 0;
 }
 
 void checkalphabet(char s[])
 {
-
-    char alphabet[] = {'a', 'b', 'c'};
     for (int i = 0; s[i] != '\0'; i++)
     {
-        bool state = 1;
-        for (int j = 0; alphabet[j] != '\0'; j++)
+
+        if (s[i] != 'a' && s[i] != 'b' && s[i] != 'c')
         {
-            if (s[i] == alphabet[j])
-            {
-                state = 1;
-                break;
-            }
-            else
-            {
-                state = 0;
-            }
+            //  printf("||Alphabet error found at char: ");
+            // errored chars
+            printf("^");
+
+            //  printf("char: {'%c'}; pos: [%d]\n", s[i], i + 1);
         }
-        if (!state)
-        {
-            printf("Alphabet error found at char: {'%c'}; positon: [%d]\n", s[i], i + 1);
-        }
+        else printf(" ");
     }
 
     printf("\n");
@@ -62,5 +57,5 @@ void checkalphabet(char s[])
 void printshit()
 {
     printf("Assigned lib: {a,b,c} | (abc)+ automaton\n");
-    printf("q0->a->q1->b->q2->c->q3 end\n");
+    printf("q0->a->q1->b->q2->c->q3 end; Lib errors will be marked with ('^') sign\n");
 }

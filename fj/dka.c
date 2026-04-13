@@ -1,8 +1,4 @@
 // standart dka autom in c lang
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
 #include "libdka.h"
 
 // dka
@@ -14,16 +10,16 @@ int main()
 {
     while (1)
     {
+        
         char s[2048];
-
         printshit();
         scanf("%s", s);
         checkalphabet(s);
+        if (dka(s))
+            printf("Status: Success!\n");
+        else
+            printf("Status: Failed!\n");
 
-        if (dka(s))printf("Status: Success!\n");
-        else printf("Status: Failed!\n");
-
-       // system("clear");
     }
     return 0;
 }
